@@ -6,7 +6,8 @@ Hier ist eine Anleitung (von ChatGPT), wie wir unser Projekt mit GitHub umsetzen
 # GitHub Flow
 
 GitHub Flow ist eine leichtgewichtige, branchbasierte Workflow-Methode, die einfach zu verstehen und zu verwenden ist. Hier sind die grundlegenden Schritte, die wir in unserem Projekt anwenden werden:
-1. Erstellen eines Branches
+
+## 1. Erstellen eines Branches
 
 Bevor du mit der Arbeit an einer neuen Funktion oder einem Bugfix beginnst, erstelle einen neuen Branch. Der Branch sollte einen beschreibenden Namen haben, der das beschreibt, woran du arbeitest.
 
@@ -14,7 +15,7 @@ Bevor du mit der Arbeit an einer neuen Funktion oder einem Bugfix beginnst, erst
     Klicke auf den Branch-Dropdown (meist main oder master) oben links.
     Tippe den Namen deines neuen Branches ein (z.B. feature/meine-neue-funktion) und drücke Enter.
 
-2. Arbeiten auf dem Branch
+## 2. Arbeiten auf dem Branch
 
 Führe alle Änderungen in deinem neuen Branch durch. Du kannst Dateien direkt auf GitHub bearbeiten:
 
@@ -23,10 +24,11 @@ Führe alle Änderungen in deinem neuen Branch durch. Du kannst Dateien direkt a
     Nimm deine Änderungen vor und füge eine beschreibende Commit-Nachricht hinzu.
     Stelle sicher, dass du den neuen Branch im Dropdown ausgewählt hast, und klicke auf „Commit changes“.
 
-3. Regelmäßiges Pushen zu GitHub
+## 3. Regelmäßiges Pushen zu GitHub
 
 Deine Änderungen werden automatisch auf GitHub gespeichert, wenn du sie committest.
-4. Öffnen eines Pull Requests
+
+## 4. Öffnen eines Pull Requests (die Schritte ab hier machen wir immer gemeinsam)
 
 Wenn deine Arbeit fertig ist und du bereit bist, sie in den Hauptbranch zu integrieren, öffne einen Pull Request. Dies erlaubt anderen Teammitgliedern, deine Änderungen zu überprüfen und Feedback zu geben.
 
@@ -35,10 +37,11 @@ Wenn deine Arbeit fertig ist und du bereit bist, sie in den Hauptbranch zu integ
     Wähle deinen Branch und den Zielbranch (normalerweise main oder master).
     Gib eine beschreibende Nachricht ein und klicke auf „Create pull request“.
 
-5. Code Review
+## 5. Code Review
 
 Andere Teammitglieder werden deinen Pull Request überprüfen. Sie können Kommentare hinterlassen, Änderungen vorschlagen oder den Pull Request genehmigen.
-6. Merge des Pull Requests
+
+## 6. Merge des Pull Requests
 
 Nach der Genehmigung kannst du deinen Pull Request mergen. Dies integriert deine Änderungen in den Hauptbranch.
 
@@ -46,7 +49,7 @@ Nach der Genehmigung kannst du deinen Pull Request mergen. Dies integriert deine
     Klicke auf „Merge pull request“.
     Lösche den Feature-Branch nach dem Merge, um das Repository sauber zu halten. Dies kann über die Benutzeroberfläche von GitHub erfolgen, indem du auf „Delete branch“ klickst.
 
-7. Aktualisieren deines lokalen Hauptbranches
+## 7. Aktualisieren deines lokalen Hauptbranches
 
 Wenn du mit einem lokalen Repository arbeitest, stelle sicher, dass dein lokaler Hauptbranch auf dem neuesten Stand ist. Ansonsten kannst du diesen Schritt überspringen.
 Zusammenfassung des GitHub Flows:
